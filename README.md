@@ -6,7 +6,7 @@ This is the completed version of the assignment.
 
 Live Link - [Heroku App](https://dabblelabsassignment1.herokuapp.com/apollo)
 
-Video demonstration - [Google Drive Link](https://drive.google.com/file/d/12cf3Nyas8gOqifPBeTWjRaOmdH0pOvQ5/view?usp=sharing)
+Video demonstration - [Video Link](https://res.cloudinary.com/scut-zulk/video/upload/v1629302080/video_2_jjhvv3.webm)
 
 
 ## Installation
