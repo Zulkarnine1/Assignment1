@@ -17,10 +17,12 @@ async function startServer() {
 
   apolloServer.applyMiddleware({ app: app, path: "/apollo" });
 
+  // Handler for the other routes
   app.use((req, res) => {
     res.send("Visit the <a href='/apollo' >/apollo</a> route to get the graphql UI.");
   });
 
+  // connecting to mongo
   mongoose
     .connect(process.env.MONGO_KEY, { useUnifiedTopology: true, useNewUrlParser: true })
     .then(() => {

@@ -1,6 +1,7 @@
 const CountryEntry = require("../models/countryEntry");
 
 const resolvers = {
+  // Query resolvers
   Query: {
     getAllCountryEntries: async () => {
       return await CountryEntry.find();
@@ -9,6 +10,7 @@ const resolvers = {
       return await CountryEntry.findById(args.id);
     },
   },
+  // Mutations resolvers
   Mutation: {
     createCountryEntry: async (_, args, context, info) => {
       const { country, year, area, total_population } = args.country;
