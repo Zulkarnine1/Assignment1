@@ -36,6 +36,6 @@ MONGO_KEY=
 Finally, the application can be run by going to the root directory in terminal and executing the following command:
 
 ```sh
-node app.js
+node index.js
 ```
 
